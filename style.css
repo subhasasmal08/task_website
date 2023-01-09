@@ -10,66 +10,17 @@
 body {
   background-color: #fff;
 }
-/* h1 {
-  text-align: center;
-  padding-top: 15px;
-  font-size: 2em;
-} */
+
 
 h4 {
   text-align: center;
 }
-/* {
-  font-family: "Open Sans";
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  text-transform: capitalize;
-} */
+
 html {
   font-size: 62.5%;
 }
 
-/* header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  background: #fff;
-  width: 100%;
-}
 
-header .heading {
-  font-size: 3em;
-  color: #666;
-  padding: 1em;
-  text-align: center;
-}
-
-header .navbar ul {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  list-style: none;
-  background: #262bdb;
-  padding: 1em;
-}
-
-header .navbar ul li {
-  margin: 0 1.5em;
-}
-
-header .navbar ul li a {
-  font-size: 2em;
-  color: #fff;
-}
-
-header .navbar ul li a:hover {
-  color: #444;
-} */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -107,13 +58,21 @@ header .navbar ul li a:hover {
   /* padding: 25px 30px 25px 30px; */
 }
 .hero_wrapper {
-  background-color: orange;
-  /* background-image: url("../../../../assets/images/women.png"); */
+  /* background-color: orange; */
+  background-image: url("../../../../assets/images/women.png");
   width: 100%;
   /* height: 100vh; */
+  /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
+  /* background-image: sepia(100%) hue-rotate(190deg) saturate(500%); */
+  
+  ;
+  /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
+
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 150px;
+}
+.hero_wrapper img{
 }
 .hero_partition_wrapper {
   display: flex;

@@ -59,7 +59,7 @@ html {
   /* background-color: orange; */
   background-image: url("../../../../assets/images/women.png");
   width: 100%;
-  /* height: 100vh; */
+  height: 100vh;
   /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
   /* background-image: sepia(100%) hue-rotate(190deg) saturate(500%); */
 
@@ -67,7 +67,7 @@ html {
 
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 150px;
+  padding: 0px 150px;
 }
 .hero_wrapper img {
 }
@@ -139,9 +139,11 @@ html {
   width: 200px;
 }
 .serviceus_wrapper {
+  /* height: 95vh; */
+
   display: flex;
   text-align: center;
-  padding: 50px 200px;
+  padding: 0px 200px;
   /* align-items: center; */
   justify-content: center;
 }
@@ -153,48 +155,83 @@ html {
   gap: 5vw;
 }
 .upper_service_wrapper {
-  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .service_lower_wrapper {
   text-align: center;
   display: flex;
+  gap: 5vw;
   justify-content: space-around;
 }
 .service_tag {
-  font-size: 55px;
-  /* width: 664px; */
+  font-size: 40px;
+  width: 664px;
+  margin-top: 80px;
 }
 .service_content {
-  width: 849px;
+  color: #707070;
+  width: 850px;
   font-size: 24px;
   align-items: center;
-  margin-left: 60px;
   margin-top: 10px;
 }
 .serviceus_comp {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 470px;
+  padding: 20px;
+  border-radius: 10px;
   /* background-color: red; */
   margin-bottom: 10%;
 }
+.serviceus_heading {
+  font-size: 30px;
+}
+.serviceus_para {
+  font-size: 18px;
+  color: #707070;
+}
 
 .whyus_wrapper {
+  /* height: 95vh; */
+
   /* display: flex;
   /* justify-content: center; */
-  padding: 50px 200px;
+  padding: 0px 200px;
   text-align: center;
+}
+.whyus_para {
+  font-size: 24px;
+  /* margin-top: 10px;
+  margin-bottom: 40px; */
 }
 .whyus_partition_wrapper {
   display: flex;
   /* flex-direction: column; */
+  align-items: center;
 }
 .whyus_lhs {
   flex: 1;
 }
 .whyus_rhs {
   flex: 1;
+  text-align: start;
+}
+.whyus_rhs_header {
+  width: 354px;
+  font-size: 42px;
+}
+.whyus_rhs_content {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #707070;
+
+  font-size: 24px;
 }
 .whyus_getmore_wrapper {
   display: flex;
@@ -210,22 +247,28 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #0d13d7;
   font-size: 24px;
   width: 180px;
   padding: 23px 10px;
   font-size: 18px;
-  color: #000;  
+  color: #707070;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   border-radius: 12px;
+  background-color: #fff;
 }
 
 .ourgoals_wrapper {
-  padding: 50px 200px;
+  height: 95vh;
+
+  padding: 0px 200px;
   text-align: center;
+}
+.ourgoals_content {
+  /* width: 934px; */
 }
 .ourgoals_lower_wrapper {
   display: flex;
@@ -241,51 +284,57 @@ html {
   color: #1453ff;
   display: flex;
   justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .portfolio_wrapper {
-  padding: 50px 200px;
+  height: 95vh;
+
+  padding: 0px 200px;
   text-align: center;
 }
-.client_wrapper{
-  padding: 50px 200px;
+
+.client_wrapper {
+  height: 95vh;
+
+  padding: 0px 200px;
   text-align: start;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
 }
-.client_upper_wrapper{
+.client_upper_wrapper {
   flex: 1;
 }
-.readmore_wrapper{
+.readmore_wrapper {
   flex: 1;
   text-align: end;
   align-items: center;
 }
-.client_lower_wrapper{
-  padding: 50px 200px;
+.client_lower_wrapper {
+  padding: 0px 200px;
 
   display: flex;
 }
 
-.lower_lhs{
+.lower_lhs {
   flex: 1;
 }
-.lower_rhs{
+.lower_rhs {
   width: 1138px;
-  background-color: #EFEFFE;
+  background-color: #efeffe;
   flex: 1;
   padding: 50px 200px;
   text-align: center;
 }
-.contact_wrapper{
+.contact_wrapper {
   padding: 50px 200px;
-text-align: center;
+  text-align: center;
   width: 1110px;
   height: 200px;
   background-color: #333697;
 }
 .footer {
-  background: #EBEBF8;
+  background: #ebebf8;
 }
 
 /* .footer .box-container {

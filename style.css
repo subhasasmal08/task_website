@@ -280,9 +280,9 @@ html {
 .client_satisfied,
 .country_avail {
   margin-top: 90px;
-  border-top-right-radius: 50px ;
-  border-bottom-left-radius: 50px ;
-  border:1px solid #fff;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 1px solid #fff;
   width: 415px;
   /* height: 180px; */
   background-color: #fff;
@@ -291,17 +291,16 @@ html {
   justify-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.ourgoals_image{
+.ourgoals_image {
   width: 70px;
   height: 70px;
   margin-top: 20px;
-
 }
-.client_satisfied{
+.client_satisfied {
   /* gap: 5vw; */
 }
 
-.inner_div{
+.inner_div {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
@@ -312,16 +311,14 @@ html {
   padding: 0px 200px;
   text-align: center;
 }
-.portfolio_lower_wrapper{
+.portfolio_lower_wrapper {
   display: flex;
-  justify-content: space-around
-
+  justify-content: space-around;
 }
-.portfolio_lower_wrapper img{
+.portfolio_lower_wrapper img {
   width: 200px;
   height: 200px;
 }
-
 
 .client_wrapper {
   height: 95vh;
